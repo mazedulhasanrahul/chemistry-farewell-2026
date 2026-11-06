@@ -65,7 +65,7 @@ const formModule = {
         CONFIG.payment.recipients.forEach(recipient => {
             cardsHtml += `
                 <div class="bg-pink-50 border border-pink-200 rounded-xl p-4 flex flex-col items-center justify-center text-center relative overflow-hidden group">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BKash_Logo.svg/1200px-BKash_Logo.svg.png" alt="bKash" class="h-8 mb-3 object-contain">
+                   <img src="assets/images/ui/bkash-logo.png" alt="bKash" class="h-8 mb-3 object-contain">
                     <div class="text-sm text-gray-600 font-medium mb-1">${recipient.name}'s Number (Personal)</div>
                     <div class="text-xl font-bold text-brand-darkpink mb-3 tracking-wide">${recipient.number}</div>
                     <button type="button" onclick="formModule.copyNumber('${recipient.number}', this)" class="bg-white border border-pink-300 text-pink-600 hover:bg-pink-600 hover:text-white transition-colors text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2">

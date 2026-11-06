@@ -37,7 +37,7 @@ const CONFIG = {
         accountType: "Personal",
         recipients: [
             { name: "Rahul", number: "01319722155" },
-            { name: "Raisa", number: "01927524053" }
+            { name: "Raisa", number: "01627986982" }
         ]
     },
 
@@ -70,7 +70,7 @@ const CONFIG = {
         imgbb: "93cb745a2488ccab48610e7d09cba7e3",
         emailjs: {
             publicKey: "f6UtKJBgEuWhs1rnK",
-            serviceId: "service_vlrdsfd",
+            serviceId: "service_dmyv009",
             adminTemplateId: "template_1ug7gby",
             studentTemplateId: "template_2s0s9qy"
         }

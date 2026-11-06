@@ -8,29 +8,38 @@ const participantsData = [
     // ডেমো ডাটা (পরবর্তীতে এগুলো মুছে আসল ডাটা দেবেন)
     {
         name: "Mazedul Hasan Rahul",
-        roll: "2101",
+        roll: "91",
         tshirtSize: "M",
         dressType: "Panjabi",
-        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        traditionalDressSize: "42", // পাঞ্জাবি বা শাড়ির সাইজ
         amountPaid: 1500,
         verified: true
     },
     {
-        name: "Nusrat Jahan",
-        roll: "2102",
-        tshirtSize: "S",
+        name: "Khadiza Raisa",
+        roll: "147",
+        tshirtSize: "XL",
         dressType: "Saree",
         traditionalDressSize: "Free Size",
         amountPaid: 1500,
         verified: true
     },
     {
-        name: "Ashikur Rahman",
-        roll: "2105",
-        tshirtSize: "L",
-        dressType: "None", // ঐতিহ্যবাহী পোশাক নেয়নি
-        traditionalDressSize: "N/A",
-        amountPaid: 1200,
+        name: "Sheikh Fariha Hossain",
+        roll: "03",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
         verified: true
-    }
+    },
+    {
+        name: "Jubayer Ahmed",
+        roll: "143",
+        tshirtSize: "M",
+        dressType: "Panjabi",
+        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
 ];
