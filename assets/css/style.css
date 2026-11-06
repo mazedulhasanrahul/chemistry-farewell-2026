@@ -1,0 +1,152 @@
+/* ==========================================
+   CUSTOM STYLES FOR FAREWELL 2026
+   ========================================== */
+
+
+/* Smooth scrolling applied via Tailwind html class, but fallback here */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    /* Accounts for fixed navbar height */
+}
+
+
+/* Custom Scrollbar for elegant look */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f172a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d4af37;
+}
+
+
+/* 
+ * Chemistry Particles Background Effect 
+ * A subtle CSS pattern to represent science/chemistry without heavy images
+ */
+
+.chem-particles {
+    background-image: radial-gradient(#d4af37 1px, transparent 1px), radial-gradient(#fce7f3 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    animation: floating 60s linear infinite;
+}
+
+@keyframes floating {
+    0% {
+        background-position: 0 0, 20px 20px;
+    }
+    100% {
+        background-position: 400px 400px, 420px 420px;
+    }
+}
+
+
+/* 
+ * Multi-Step Form Transitions 
+ */
+
+.form-step {
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.form-step.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.form-step.active {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+    animation: slideIn 0.4s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Form Step Indicator Active State */
+
+.step-indicator.active div {
+    background-color: #d4af37;
+    /* Gold */
+    border-color: #0f172a;
+    /* Navy */
+    color: #0f172a;
+}
+
+.step-indicator.active span {
+    color: #0f172a;
+    font-weight: bold;
+}
+
+
+/* 
+ * Custom Animations 
+ */
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Glassmorphism utilities for profile cards */
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+/* PDF Print Styles override - hide elements not meant for print */
+
+@media print {
+    #navbar,
+    #hero,
+    #dresses,
+    #registration,
+    #gallery,
+    #faq,
+    #contact {
+        display: none !important;
+    }
+    body {
+        background: white !important;
+    }
+    /* Only allow the PDF content container to print if user tries Ctrl+P instead of button */
+}
