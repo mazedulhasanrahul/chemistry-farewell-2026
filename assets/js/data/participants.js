@@ -42,4 +42,41 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Shrabony Akter Nila",
+        roll: "59",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Fahmida Naznin Ripa",
+        roll: "05",
+        tshirtSize: "L",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Tabassum Rahaman",
+        roll: "01",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Bipasha",
+        roll: "48",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+
 ];
