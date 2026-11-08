@@ -87,5 +87,23 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Umme Habiba Sabiha",
+        roll: "08",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Romiz Mia",
+        roll: "268",
+        tshirtSize: "L",
+        dressType: "Panjabi",
+        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
 
 ];
