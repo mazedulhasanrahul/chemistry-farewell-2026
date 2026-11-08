@@ -78,5 +78,14 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Bristy Rani Das",
+        roll: "39",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
 
 ];
