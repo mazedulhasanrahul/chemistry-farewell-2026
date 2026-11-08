@@ -105,5 +105,15 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Ashikur Rahman Rajon",
+        roll: "261",
+        tshirtSize: "L",
+        dressType: "Panjabi",
+        traditionalDressSize: "42", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+
 
 ];
