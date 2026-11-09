@@ -28,9 +28,9 @@ const participantsData = [
         name: "Sheikh Fariha Hossain",
         roll: "03",
         tshirtSize: "XL",
-        dressType: "Saree",
+        dressType: "NA",
         traditionalDressSize: "Free Size",
-        amountPaid: 1500,
+        amountPaid: 1200,
         verified: true
     },
     {
@@ -111,6 +111,42 @@ const participantsData = [
         tshirtSize: "L",
         dressType: "Panjabi",
         traditionalDressSize: "42", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Anuradha karmokar",
+        roll: "06",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Mahiya Rahman",
+        roll: "10",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Sumona Akter",
+        roll: "184",
+        tshirtSize: "M",
+        dressType: "NA",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1200,
+        verified: true
+    },
+    {
+        name: "Tonni Akter",
+        roll: "189",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
         amountPaid: 1500,
         verified: true
     },
