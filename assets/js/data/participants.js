@@ -144,7 +144,7 @@ const participantsData = [
     {
         name: "Tonni Akter",
         roll: "189",
-        tshirtSize: "M",
+        tshirtSize: "XL",
         dressType: "Saree",
         traditionalDressSize: "Free Size",
         amountPaid: 1500,
