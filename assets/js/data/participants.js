@@ -231,6 +231,14 @@ const participantsData = [
         amountPaid: 1200,
         verified: true
     },
-
+    {
+        name: "Tanzila Nusrat Sara",
+        roll: "19",
+        tshirtSize: "L",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
 
 ];
