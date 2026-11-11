@@ -259,7 +259,7 @@ const participantsData = [
         verified: true
     },
     {
-        name: "Ishita Akhter Meen",
+        name: "Ishita Akhter Meem",
         roll: "199",
         tshirtSize: "XL",
         dressType: "Saree",
