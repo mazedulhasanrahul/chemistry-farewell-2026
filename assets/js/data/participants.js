@@ -196,7 +196,7 @@ const participantsData = [
         verified: true
     },
     {
-        name: "Saimoon Nahar Nadia",
+        name: "Simoon Nahar Nadia",
         roll: "112",
         tshirtSize: "M",
         dressType: "Saree",
@@ -234,6 +234,15 @@ const participantsData = [
     {
         name: "Tanzila Nusrat Sara",
         roll: "19",
+        tshirtSize: "L",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Alpona Akter Tani",
+        roll: "57",
         tshirtSize: "L",
         dressType: "Saree",
         traditionalDressSize: "Free Size",
