@@ -249,5 +249,95 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Mir Mahfuja Rahman",
+        roll: "88",
+        tshirtSize: "XXL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Ishita Akhter Meen",
+        roll: "199",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Marium Sadia",
+        roll: "188",
+        tshirtSize: "L",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Somaiya Akhter",
+        roll: "30",
+        tshirtSize: "XL",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Anik Kumar",
+        roll: "244",
+        tshirtSize: "M",
+        dressType: "Panjabi",
+        traditionalDressSize: "38", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Hamidur Rahman Farhad",
+        roll: "167",
+        tshirtSize: "L",
+        dressType: "Panjabi",
+        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Sanaur Rahman",
+        roll: "254",
+        tshirtSize: "XXL",
+        dressType: "Panjabi",
+        traditionalDressSize: "44", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Shakhawat Sujon",
+        roll: "219",
+        tshirtSize: "M",
+        dressType: "NA",
+        traditionalDressSize: "NA", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1200,
+        verified: true
+    },
+    {
+        name: "Naznin Sarker Risha",
+        roll: "258",
+        tshirtSize: "L",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Sajeda Begum Tithi",
+        roll: "140",
+        tshirtSize: "XL",
+        dressType: "NA",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1200,
+        verified: true
+    },
 
 ];
