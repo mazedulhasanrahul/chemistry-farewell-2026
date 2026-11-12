@@ -528,4 +528,31 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Abdullah Al Mahmud",
+        roll: "175",
+        tshirtSize: "L",
+        dressType: "Panjabi",
+        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Jahidul Hasan Jhony",
+        roll: "60",
+        tshirtSize: "L",
+        dressType: "Panjabi",
+        traditionalDressSize: "40", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1500,
+        verified: true
+    },
+    {
+        name: "Ratry Debnath",
+        roll: "87",
+        tshirtSize: "M",
+        dressType: "Saree",
+        traditionalDressSize: "Free Size",
+        amountPaid: 1500,
+        verified: true
+    },
 ];
