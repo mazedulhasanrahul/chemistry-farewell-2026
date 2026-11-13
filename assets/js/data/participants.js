@@ -555,4 +555,13 @@ const participantsData = [
         amountPaid: 1500,
         verified: true
     },
+    {
+        name: "Mumtazul Huda Tousif",
+        roll: "12",
+        tshirtSize: "XL",
+        dressType: "Panjabi",
+        traditionalDressSize: "42", // পাঞ্জাবি বা শাড়ির সাইজ
+        amountPaid: 1200,
+        verified: true
+    },
 ];
